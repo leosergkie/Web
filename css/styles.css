@@ -160,3 +160,24 @@ html {
 	height: 300px;
 	background: linear-gradient(#0250f5,#BFEEFF);
 }
+
+.contacts {
+	display: flex;
+	flex-flow: column nowrap;
+	color: aliceblue;
+	padding: 50px;
+}
+#contact1 {
+	position: relative;
+	top:0;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+.contacts_buttons {
+	display: flex;
+	padding: 20px;
+}
+
+.contacts_vk {
+padding-right:30px;
+}
